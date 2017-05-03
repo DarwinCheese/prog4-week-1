@@ -16,7 +16,7 @@ app.put('/', function(request, response) {
 })
 app.get('/json', function(request, response) {
 	response.json({
-	'some_name': 'Value',
+	'message': 'Hello World',
 	'an_array_of_objects': [
 	{
 	'another_name': 'Another value',
